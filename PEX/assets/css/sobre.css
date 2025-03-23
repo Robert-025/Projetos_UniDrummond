@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+main{
+    width: 100%;
+    height: 1288px;
+    background-image: url("../img/sobre.jpg");
+    background-size: 1124px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #393691;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #393691;
+    display: flex;
+    justify-content: center;
+}
+
+.content-cabecalho{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerdo-header img{
+    width: 100px;
+    height: 100px;
+}
+
+.direito-header{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-cabecalho{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-cabecalho a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 40px;
+}
+
+.links-cabecalho a:hover{
+    text-decoration: underline;
+}
+
+.background-direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitos{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+}
+
+.content-informacoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    /* background-color: aqua; */
+}
+
+.informacoes{
+    display: grid;
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    align-content: space-around;
+}
+
+.titulo{
+    background-color: #FBF9FF;
+    opacity: 87%;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;        
+}
+
+.titulo p{
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.explicacao{
+    width: 100%;
+    height: auto;
+    background-color: #FBF9FF;
+    border-radius: 20px;
+    opacity: 87%;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.explicacao p{
+    padding: 15px 60px 15px 60px;
+}
