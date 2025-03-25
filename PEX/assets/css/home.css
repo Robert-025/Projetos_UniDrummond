@@ -7,14 +7,14 @@ body{
 
 main{
     width: 100%;
-    height: 1288px;
+    height: 1100px;
     background-image: url("../img/home2.png");
     background-size: 1124px;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 header{
@@ -102,31 +102,32 @@ footer{
 }
 
 .content-informacoes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    /* justify-content: space-around;
+    align-items: center; */
     height: 100%;
     width: 70%;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .informacoes{
     display: grid;
-    justify-content: center;
-    align-items: center;
+    align-content: space-around;
     height: 80%;
-    width: 100%;
-    /* background-color: bl ue; */
+    width: 70%;
+    background-color: blue;
+    padding-top: 80px;
 }
 
 .titulo{
     background-color: #FBF9FF;
     opacity: 87%;
     width: 100%;
-    height: 71x;
+    height: auto;
+    display: grid;    
     border-radius: 20px;
-    display: flex;
-    align-items: center;        
+    border-style: solid;
+    border-color: #000;
 }
 
 .titulo p{
@@ -134,43 +135,41 @@ footer{
     padding-left: 60px;
 }
 
-.content-dados{
-    display: grid;
-    height: 80%;
-    width: 85%;
-    /* background-color: aqua; */
-    align-self: center;
-    justify-items: flex-start;
-    font-size: 18px;
-    padding-bottom: 15px;
-}
-
 .introducao{
     background-color: #FBF9FF;
     opacity: 87%;
     width: 100%;
-    height: 350px;
+    height: auto;
     border-radius: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    border-style: solid;
+    border-color: #000;
+
 }
 
-.content-dados ul{
-    margin: 0px;
-    padding-left: 50px;
+.content-dados{
+    display: flex;
+    height: auto;
+    width: 85%;
+    font-size: 18px;
+}
+
+.content-dados p{
+    
 }
 
 .dados{
     background-color: #FBF9FF;
     opacity: 87%;
     width: 100%;
-    height: 320px;
+    height: auto;
     border-radius: 20px;
     display: grid;
     justify-items: center;
     align-content: space-between;
+    padding: 20px 0px 20px 0px;
     font-size: 18px;
-    margin: 0;
 }
 
 .content-dados input{
