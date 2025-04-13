@@ -30,7 +30,7 @@ header{
 }
 
 .direito-header{
-    width: 45%;
+    width: 25%;
     height: 100%;
     display: flex;
     /* background-color: blueviolet; */
@@ -118,7 +118,7 @@ main{
 
 .aviso{
     width: 100%;
-    height: 465p    x;
+    height: 465px;
     background-color: #fdf9ff;
     align-self: flex-end;
     border-radius: 20px;

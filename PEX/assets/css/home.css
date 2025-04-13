@@ -19,7 +19,7 @@ header{
 .content-cabecalho{
     /* background-color: aqua; */
     height: 100%;
-    width: 1130px;
+    width: 78.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header{
 }
 
 .direito-header{
-    width: 45%;
+    width: 25%;
     height: 100%;
     display: flex;
     /* background-color: blueviolet; */
@@ -67,9 +67,9 @@ header{
 
 main{
     width: 100%;
-    height: 1100px;
-    background-image: url("../img/home2.png");
-    background-size: auto;
+    height: auto;
+    background-image: url("../img/sobre.jpg");
+    background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -139,7 +139,7 @@ main{
 
 .espaco-dados{
     width: 100%;
-    height: 380px;
+    height: 400px;
     /* background-color: blue; */
     display: grid;
     align-content: end;
@@ -147,7 +147,7 @@ main{
 
 .dados{
     width: 100%;
-    height: 320px;
+    height: 330px;
     background-color: #fdf9ff;
     border-radius: 20px;
     border-color: #000;
@@ -159,15 +159,17 @@ main{
 }
 
 .dados p{
-    padding-left: 60px;
+    padding: 0px 60px 0px 60px;
 }
 
-.info{
-    padding-left: 60px;
+.frases{
+    width: auto;
+    height: 80%;
+    padding: 10px 0px 10px 0px;
 }
 
-.info p{
-    padding-left: 0px;
+/* .info{
+    padding-left: 60px;
 }
 
 .info input{
@@ -176,17 +178,18 @@ main{
     color: #000;
     border-radius: 20px;
     font-size: 17px;
-}
+} */
 
 .espaco-botao{
     width: 100%;
     height: 170px;
     /* background-color: blue; */
-    display: grid;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button{
+.espaco-botao a{
     width: 27%;
     height: 50px;
     border-radius: 20px;
@@ -195,14 +198,16 @@ button{
     border-width: 2px;
     background-color: #393691;
     color: #fff;
-    align-content: center;
-    justify-self: center;
     font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
 }
 
 /*---------- RODAPE ---------- */
 
 footer{
+    margin-top: 50px;
     width: 100%;
     height: 120px;
     background-color: #393691;
