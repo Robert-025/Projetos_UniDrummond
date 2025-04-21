@@ -19,7 +19,7 @@ header{
 .content-cabecalho{
     /* background-color: aqua; */
     height: 100%;
-    width: 1130px;
+    width: 78.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
