@@ -65,7 +65,7 @@ header{
 
 /*---------- CORPO ---------- */
 
-main{
+.main-home{
   width: 100%;
   height: auto;
   background-image: url("../img/sobre.jpg");

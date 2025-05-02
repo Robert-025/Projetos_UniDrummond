@@ -20,7 +20,7 @@ export default function App() {
         </div>
       </header>
       
-      <main>
+      <main className='main-home'>
         <div className="content">
           <div className="espaco-titulo">
             <div className="titulo">

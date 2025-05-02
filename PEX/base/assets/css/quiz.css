@@ -136,11 +136,15 @@ main{
 }
 
 .pergunta{
-    width: 100%;
+    width: 87%;
+    height: auto;
+    display: grid;
+    align-content: space-evenly;
+    justify-items: start;
 }
 
 .pergunta p{
-    padding: 0px 60px 0px 60px;
+    margin: 0px 0px 40px 0px;
 }
 
 .espaco-vazio{
