@@ -1,24 +1,16 @@
 import { Link } from 'react-router-dom';
 
+import Header from './Header.js'; 
+import Footer from './Footer.js'; 
+
 import '../styles/App.css';
 import Logo from '../img/logo.png'
 
 export default function App() {
   return (
     <div className='body'>
-      <header>
-        <div class="content-cabecalho">
-            <div class="esquerdo-header">
-                <img src={Logo} alt="Logo do site"/>
-            </div>
-            <div class="direito-header">
-                <nav class="links-cabecalho">
-                    <a href="/">Início</a>
-                    <a href="/quiz">Quiz</a>
-                </nav>
-            </div>
-        </div>
-      </header>
+      
+      <Header />
       
       <main className='main-home'>
         <div className="content">
@@ -74,13 +66,8 @@ export default function App() {
         </div>
       </main>
 
-      <footer>
-        <div class="background-direitos">
-            <p class="direitos">
-                Copyright 2025 © Todos os direitos reservados.
-            </p>
-        </div>
-      </footer>
+      <Footer />
+
     </div>
   );
 }
