@@ -5,7 +5,6 @@ import Footer from './Footer.js';
 import { Link } from 'react-router-dom';
 
 import '../styles/Result.css';
-import Logo from '../img/logo.png'
 
 export default function Result(){
     return(
@@ -19,6 +18,9 @@ export default function Result(){
                         <div className="titulo">
                             <h1>Quiz</h1>
                         </div>
+                    </div>
+                    <div className="espaco-botao">
+                        <Link to="/">Restart</Link>
                     </div>
         
                     <div className="espaco-vazio"></div>

@@ -3,10 +3,9 @@ import Questions from './Questions.js';
 import Header from './Header.js'; 
 import Footer from './Footer.js'; 
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import '../styles/Quiz.css';
-import Logo from '../img/logo.png'
 
 export default function Quiz(){
     return(

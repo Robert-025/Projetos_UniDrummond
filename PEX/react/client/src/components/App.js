@@ -4,7 +4,6 @@ import Header from './Header.js';
 import Footer from './Footer.js'; 
 
 import '../styles/App.css';
-import Logo from '../img/logo.png'
 
 export default function App() {
   return (
