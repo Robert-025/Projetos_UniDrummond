@@ -91,22 +91,29 @@ header{
   display: grid;
 }
 
-.titulo{
+.conteudo-titulo{
   width: 100%;
   height: 72px;
   background-color: #fdf9ff;
-  align-self: flex-end;
   border-radius: 20px;
   border-color: #000;
   border-style: solid;
   border-width: 2px;
   font-size: 30px;    
-  display: flex;
-  align-items: center;
+  justify-items: center;
+  align-self: end; 
+  opacity: 92%;
+}
+
+.titulo{
+  width: 87%;
+  height: auto;
+  display: grid;
+  align-content: space-evenly;
+  justify-items: start;   
 }
 
 .titulo h1{
-  padding-left: 60px;
   font-size: 30px;
   text-decoration: none;
   font-weight: 400;
@@ -120,7 +127,7 @@ header{
   align-content: end;
 }
 
-.entrada{
+.conteudo-entrada{
   width: 100%;
   height: 330px;
   background-color: #fdf9ff;
@@ -133,12 +140,17 @@ header{
   opacity: 92%;
 }
 
-.entrada p{
-  padding: 0px 60px 0px 60px;
+.entrada{
+  width: 87%;
+  height: auto;
+  display: grid;
+  justify-self: center;
+  /* align-content: space-evenly;
+  justify-items: start;   */
 }
 
 .entrada p:last-child{
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .espaco-dados{

@@ -16,8 +16,10 @@ export default function Quiz(){
         <main className='main-quiz'>
           <div className="content">
             <div className="espaco-titulo">
-              <div className="titulo">
-                <h1>Quiz</h1>
+              <div className="conteudo-titulo">
+                <div className="titulo">
+                  <h1>Quiz</h1>
+                </div>
               </div>
             </div>
   
