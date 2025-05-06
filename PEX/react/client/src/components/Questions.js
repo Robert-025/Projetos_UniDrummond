@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../database/data.js';
 
-import '../styles/Quiz.css';
+import '../styles/App.css';
 
 export default function Questions(){
 
@@ -28,7 +28,6 @@ export default function Questions(){
     }
 
     return(
-        <div className="espaco-pergunta">
             <div className="conteudo-pergunta">
                 <div className="pergunta">
 
@@ -53,6 +52,5 @@ export default function Questions(){
 
                 </div>
             </div>
-        </div>
     );
 }

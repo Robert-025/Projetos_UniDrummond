@@ -1,4 +1,4 @@
-/*---------- CABEÇALHO ---------- */
+/* -------------- CABEÇALHO -------------- */
 
 .body{
   display: flex;
@@ -63,168 +63,11 @@ header{
   text-decoration: underline;
 }
 
-/*---------- CORPO ---------- */
+/* -------------- CABEÇALHO -------------- */
 
-.main-home{
-  width: 100%;
-  height: auto;
-  background-image: url("../img/sobre.jpg");
-  background-size: 1500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.content{
-  width: 72%;
-  height: 100%;
-  /* background-color: aqua; */
-  display: grid;
-}
-
-.espaco-titulo{
-  width: 100%;
-  height: 160px;
-  /* background-color: blue; */
-  display: grid;
-}
-
-.conteudo-titulo{
-  width: 100%;
-  height: 72px;
-  background-color: #fdf9ff;
-  border-radius: 20px;
-  border-color: #000;
-  border-style: solid;
-  border-width: 2px;
-  font-size: 30px;    
-  justify-items: center;
-  align-self: end; 
-  opacity: 92%;
-}
-
-.titulo{
-  width: 87%;
-  height: auto;
-  display: grid;
-  align-content: space-evenly;
-  justify-items: start;   
-}
-
-.titulo h1{
-  font-size: 30px;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-.espaco-entrada{
-  width: 100%;
-  height: 400px;
-  /* background-color: blue; */
-  display: grid;
-  align-content: end;
-}
-
-.conteudo-entrada{
-  width: 100%;
-  height: 330px;
-  background-color: #fdf9ff;
-  border-radius: 20px;
-  border-color: #000;
-  border-style: solid;
-  border-width: 2px;
-  font-size: 18px;  
-  align-content: center;  
-  opacity: 92%;
-}
-
-.entrada{
-  width: 87%;
-  height: auto;
-  display: grid;
-  justify-self: center;
-  /* align-content: space-evenly;
-  justify-items: start;   */
-}
-
-.entrada p:last-child{
-  padding-left: 50px;
-}
-
-.espaco-dados{
-  width: 100%;
-  height: 400px;
-  /* background-color: blue; */
-  display: grid;
-  align-content: end;
-}
-
-.dados{
-  width: 100%;
-  height: 330px;
-  background-color: #fdf9ff;
-  border-radius: 20px;
-  border-color: #000;
-  border-style: solid;
-  border-width: 2px;
-  font-size: 18px;  
-  display: grid;
-  align-content: center;
-  opacity: 92%;
-}
-
-.dados p{
-  padding: 0px 60px 0px 60px;
-}
-
-.frases{
-  width: auto;
-  height: 80%;
-  padding: 10px 0px 10px 0px;
-}
-
-/* .info{
-  padding-left: 60px;
-}
-
-.info input{
-  width: 720px;
-  height: 40px;
-  color: #000;
-  border-radius: 20px;
-  font-size: 17px;
-} */
-
-.espaco-botao{
-  width: 100%;
-  height: 170px;
-  /* background-color: blue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.espaco-botao a{
-  width: 27%;
-  height: 50px;
-  border-radius: 20px;
-  border-color: #000;
-  border-style: solid;
-  border-width: 2px;
-  background-color: #393691;
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-  align-content: center;
-}
-
-/*---------- RODAPE ---------- */
+/* -------------- RODAPE -------------- */
 
 footer{
-  margin-top: 50px;
   width: 100%;
   height: 120px;
   background-color: #393691;
@@ -253,3 +96,194 @@ footer{
   padding-bottom: 6px;
   border-radius: 40px;
 }
+
+/* -------------- RODAPE -------------- */
+
+/* -------------- CORPO -------------- */
+
+.main-home{
+  width: 100%;
+  height: auto;
+  background-image: url("../img/sobre.jpg");
+  background-size: 93.75rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-quiz{
+  width: 100%;
+  height: 49rem;
+  background-image: url("../img/6505028.jpg");
+  background-size: 90.625rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+}
+
+/* -------------- CORPO -------------- */
+
+/* -------------- GERAL --------------*/
+
+.content{
+  width: 72%;
+  height: 100%;
+  display: grid;
+}
+
+.conteudo-titulo{
+  width: 100%;
+  height: 4.5rem;
+  background-color: #fdf9ff;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.875rem;
+  display: grid;
+  align-self: end;
+  opacity: 92%;
+  justify-items: center;
+  margin-top: 5rem;
+}
+
+.titulo{
+  width: 87%;
+  height: auto;
+  display: grid;
+}
+
+.titulo h1{
+  font-size: 1.875rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* -------------- GERAL --------------*/
+
+/* -------------- HOMEPAGE --------------*/
+
+.conteudo-entrada{
+  width: 100%;
+  height: 20.625rem;
+  background-color: #fdf9ff;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+  display: grid;
+  align-self: end;
+  opacity: 92%;
+  align-content: center;
+  margin-top: 5rem;
+}
+
+.entrada{
+  width: 87%;
+  height: auto;
+  display: grid;
+  justify-self: center;
+}
+
+.entrada p:last-child{
+  padding-left: 3.125rem;
+}
+
+.conteudo-dados{
+  width: 100%;
+  height: auto;
+  background-color: #fdf9ff;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+  display: grid;
+  align-content: center;
+  opacity: 92%;
+  margin-top: 5rem;
+}
+
+.dados p{
+  padding: 0px 3.75rem 0px 3.75rem;
+}
+
+.frases{
+  width: auto;
+  height: 80%;
+  padding: 1.2rem 0px 1.2rem 0px;
+}
+
+.espaco-botao{
+  width: 100%;
+  height: 10.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaco-botao a{
+  width: 27%;
+  height: 3.125rem;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  background-color: #393691;
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------- HOMEPAGE --------------*/
+
+/* -------------- QUESTIONS --------------*/
+
+.conteudo-pergunta{
+  width: 100%;
+  height: 23.75rem;
+  background-color: #fdf9ff;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  opacity: 92%;
+  margin-top: 5rem;
+}
+
+.pergunta{
+  width: 87%;
+  height: auto;
+  display: grid;
+}
+
+.pergunta h2{
+  margin: 0px 0px 2.5rem 0px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+label{
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.espaco-vazio{
+  width: 100%;
+  height: 11.125rem;
+}
+
+/* -------------- QUESTIONS --------------*/
