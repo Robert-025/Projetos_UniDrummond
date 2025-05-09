@@ -214,9 +214,11 @@ footer{
 }
 
 .frases{
-  width: auto;
+  width: 87%;
   height: 80%;
   padding: 1.2rem 0px 1.2rem 0px;
+  display: grid;
+  justify-self: center;
 }
 
 .espaco-botao{
@@ -266,6 +268,7 @@ footer{
   width: 87%;
   height: auto;
   display: grid;
+  justify-self: center;
 }
 
 .pergunta h2{
@@ -287,3 +290,36 @@ label{
 }
 
 /* -------------- QUESTIONS --------------*/
+
+/* -------------- RESULT --------------*/
+
+.conteudo-resultado {
+  width: 100%;
+  height: auto;
+  background-color: #fdf9ff;
+  border-radius: 1.25rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+  display: grid;
+  align-content: center;
+  opacity: 92%;
+  margin-top: 5rem;
+}
+
+.resultado{
+  width: 87%;
+  height: auto;
+  display: grid;
+  justify-self: center;
+}
+
+.resultado h2{
+  margin: 0px 0px 2.5rem 0px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* -------------- RESULT --------------*/

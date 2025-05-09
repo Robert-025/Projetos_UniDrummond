@@ -8,7 +8,7 @@ export default [
             "Responder pedindo mais informações.",
             "Ignorar e apagar o e-mail."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 2, 
@@ -18,7 +18,7 @@ export default [
             "Para que outras pessoas não acessem suas contas.",
             "Para ajudar um amigo em necessidade.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ export default [
             "Ver se o site é colorido.",
             "Perguntar para amigos se já usaram.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ export default [
             "Navegar com cuidado e evitar entrar em contas pessoais.",
             "Fazer compras online porque é mais rápido.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export default [
             "Compartilhar com amigos para ver o que acham.",
             "Ignorar a mensagem porque pode ser um golpe."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 6,
@@ -58,7 +58,7 @@ export default [
             "Criar combinações de números, letras e símbolos.",
             "Usar apenas números para facilitar.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 7,
@@ -68,7 +68,7 @@ export default [
             "Para acessar a conta mais rápido.",
             "Porque é obrigatório.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ export default [
             "Pedir ajuda nas redes sociais.",
             "Trocar sua senha e verificar suas configurações de segurança.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 9,
@@ -88,7 +88,7 @@ export default [
             "Para evitar que todas as contas sejam acessadas se uma senha for descoberta.",
             "Para mostrar criatividade.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 10,
@@ -98,7 +98,7 @@ export default [
             "Para apagar arquivos antigos.",
             "Para deixar o celular mais rápido.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 11,
@@ -108,7 +108,7 @@ export default [
             "Desconfiar e não compartilhar nada.",
             "Pedir o nome da pessoa para confirmar depois.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 12,
@@ -118,7 +118,7 @@ export default [
             "Desconfiar de ofertas boas demais para ser verdade.",
             "Ignorar todos os contatos novos.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 13,
@@ -128,7 +128,7 @@ export default [
             "Geralmente são lentos.",
             "Não funcionam direito.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 14,
@@ -138,7 +138,7 @@ export default [
             "Verificar se o site é confiável e seguro.",
             "Perguntar a amigos sobre o site.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 15,
@@ -148,7 +148,7 @@ export default [
             "Porque pessoas mal-intencionadas podem usar as fotos de forma errada.",
             "Porque fica muito difícil de encontrar a foto depois.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 16,
@@ -158,7 +158,7 @@ export default [
             "Um programa para melhorar a conexão de internet.",
             "Uma chamada para ganhar prêmios.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 17,
@@ -168,7 +168,7 @@ export default [
             "Porque pode apagar suas fotos.",
             "Podem instalar vírus no seu dispositivo.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 18,
@@ -178,7 +178,7 @@ export default [
             "Reiniciar o celular todos os dias.",
             "Apagar fotos regularmente.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 19,
@@ -188,7 +188,7 @@ export default [
             "Trocar de banco.",
             "Avisar imediatamente o banco e verificar suas transações.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 20,
@@ -198,7 +198,7 @@ export default [
             "Porque hackers podem acessar seu dispositivo.",
             "Porque pode causar lentidão.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 21,
@@ -208,7 +208,7 @@ export default [
             "Não responder e entrar no site oficial do banco para verificar.",
             "Ligar para o banco informando o ocorrido.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 22,
@@ -218,7 +218,7 @@ export default [
             "Se alguém descobrir uma senha, pode acessar todas as suas contas.",
             "Pode ser caro criar senhas novas.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 23,
@@ -228,7 +228,7 @@ export default [
             "Misturar letras maiúsculas, minúsculas, números e símbolos.",
             "Usar apenas palavras fáceis de lembrar.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 24,
@@ -238,7 +238,7 @@ export default [
             "Porque podem conter vírus ou roubar suas informações.",
             "Porque ocupam mais espaço no celular.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 25,
@@ -248,7 +248,7 @@ export default [
             "Esperar alguém devolver.",
             "Comprar um celular novo sem bloquear o antigo.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 26,
@@ -258,7 +258,7 @@ export default [
             "Usar a mesma senha para todas as contas",
             "Usar combinações de letras, números e símbolos"
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 27,
@@ -268,7 +268,7 @@ export default [
             "Porque ninguém precisa de dinheiro.",
             "Porque geralmente são brincadeiras.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 28,
@@ -278,7 +278,7 @@ export default [
             "Desligar o Wi-Fi à noite.",
             "Configurar uma senha forte e atualizar o firmware regularmente.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 29,
@@ -288,7 +288,7 @@ export default [
             "Porque suas informações podem ser interceptadas por hackers.",
             "Porque a conexão pode ser lenta.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 30,
@@ -298,7 +298,7 @@ export default [
             "Perguntar a amigos.",
             "Fazer o download para testar.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 31,
@@ -308,7 +308,7 @@ export default [
             "Promoções de lojas virtuais.",
             "Golpes para roubar informações pessoais.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 32,
@@ -318,7 +318,7 @@ export default [
             "Um software criado para causar danos ou roubar dados.",
             "Um programa usado por empresas para vendas.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 33,
@@ -328,7 +328,7 @@ export default [
             "Clicar imediatamente para não perder tempo.",
             "Pedir ajuda para outra pessoa abrir o link.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 34,
@@ -338,7 +338,7 @@ export default [
             "Porque ocupa mais memória.",
             "Porque qualquer pessoa pode acessar suas informações."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 35,
@@ -348,7 +348,7 @@ export default [
             "Gravar a ligação e compartilhar nas redes sociais.",
             "Desligar e confirmar com a empresa ou instituição diretamente.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 36,
@@ -358,7 +358,7 @@ export default [
             "Compartilhar todas as mensagens com seus amigos.",
             "Não responder a ninguém.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 37,
@@ -368,7 +368,7 @@ export default [
             "Para criar senhas fortes e armazená-las com segurança.",
             "Para compartilhar senhas com amigos.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 38,
@@ -378,7 +378,7 @@ export default [
             "O site não carrega rápido.",
             "O site tem anúncios.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 39,
@@ -388,7 +388,7 @@ export default [
             "Verificar imediatamente seu antivírus e suas contas.",
             "Pedir ajuda para alguém fechar o link.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 40,
@@ -398,7 +398,7 @@ export default [
             "Porque diminui sua lista de amigos.",
             "Para proteger sua privacidade.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 41,
@@ -408,7 +408,7 @@ export default [
             "Porque ocupam espaço no celular.",
             "Porque são golpes para enganar pessoas."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 42,
@@ -418,7 +418,7 @@ export default [
             "Fornecer para resolver rápido.",
             "Perguntar o motivo.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 43,
@@ -428,7 +428,7 @@ export default [
             "Para tornar o aplicativo mais rápido.",
             "Para evitar que acessem suas informações desnecessariamente."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 44,
@@ -438,7 +438,7 @@ export default [
             "Porque outras pessoas podem acessar seus dados.",
             "Porque são instáveis.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 45,
@@ -448,7 +448,7 @@ export default [
             "Perguntar a amigos se é seguro.",
             "Compartilhar sem pensar muito.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 46,
@@ -458,7 +458,7 @@ export default [
             "Bloquear o celular à noite.",
             "Fazer backups regulares em locais seguros.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 47,
@@ -468,7 +468,7 @@ export default [
             "Tentativas de enganar pessoas para roubar dinheiro ou dados.",
             "Anúncios pagos.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 48,
@@ -478,7 +478,7 @@ export default [
             "Perguntar para os amigos sobre o aplicativo.",
             "Testar primeiro e depois deletar.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 49,
@@ -488,7 +488,7 @@ export default [
             "Esperar para ver se melhora.",
             "Ignorar, pois pode ser normal.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 50,
@@ -498,7 +498,7 @@ export default [
             "Desligando-o à noite.",
             "Usando apenas para trabalho.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 51,
@@ -508,7 +508,7 @@ export default [
             "Compartilhar o arquivo com outras pessoas primeiro.",
             "Perguntar se ele realmente enviou o arquivo.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 52,
@@ -518,7 +518,7 @@ export default [
             "Para que o aplicativo funcione mais rápido.",
             "Para economizar espaço no celular.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 53,
@@ -528,7 +528,7 @@ export default [
             "Compartilhar a mensagem para outras pessoas doarem.",
             "Confirmar a autenticidade antes de doar.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 54,
@@ -538,7 +538,7 @@ export default [
             "Clicar para ver do que se trata.",
             "Responder perguntando mais detalhes.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 55,
@@ -548,7 +548,7 @@ export default [
             "Porque consome mais internet.",
             "Porque outras pessoas podem acessar sem sua permissão.",
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 56,
@@ -558,7 +558,7 @@ export default [
             "Mais segurança para suas transações financeiras.",
             "Internet mais rápida.",
         ],
-        answer: 1
+        answer: "1"
     },
     {
         id: 57,
@@ -568,7 +568,7 @@ export default [
             'Deletar para economizar espaço.',
             'Fazer backups e usar senhas em arquivos sensíveis.',
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 58,
@@ -578,7 +578,7 @@ export default [
             "Perguntar o motivo, mas depois compartilhar.",
             "Nunca compartilhar, mesmo que pareça confiável."
         ],
-        answer: 2
+        answer: "2"
     },
     {
         id: 59,
@@ -588,7 +588,7 @@ export default [
             "Postar apenas para amigos.",
             "Escrever tudo em mensagens diretas.",
         ],
-        answer: 0
+        answer: "0"
     },
     {
         id: 60,
@@ -598,6 +598,6 @@ export default [
             "Para personalizar o dispositivo.",
             "Para evitar vírus e ataques ao seu dispositivo."
         ],
-        answer: 2
+        answer: "2"
     }
 ]
