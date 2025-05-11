@@ -3,14 +3,11 @@ import Questions from './Questions.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
 
-// import { Link } from 'react-router-dom';
-
 import '../styles/App.css';
 
 export default function Quiz() {
   return (
     <div className='body'>
-
       <Header />
 
       <main className='main-quiz'>
@@ -28,7 +25,6 @@ export default function Quiz() {
       </main>
 
       <Footer />
-
     </div>
   );
 }
