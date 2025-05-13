@@ -30,7 +30,7 @@ header{
 }
 
 .direito-header{
-  width: 25%;
+  width: 40%;
   height: 100%;
   display: flex;
   /* background-color: blueviolet; */
@@ -363,3 +363,7 @@ label{
 }
 
 /* -------------- RESULT --------------*/
+
+@media (max-width: 999px){
+
+}

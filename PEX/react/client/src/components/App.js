@@ -18,7 +18,7 @@ export default function App() {
               <h1>Início</h1>
             </div>
           </div>
-          <div className="conteudo-entrada">
+          {/* <div className="conteudo-entrada">
             <div className="entrada">
               <p>
                 Seja bem-vindo ao nosso quiz sobre segurança da informação. Esse questionário tem como principal missão saber como estão informados os usuários comuns sobre golpes, invasões e prevenções de vazamento de dados.
@@ -33,7 +33,7 @@ export default function App() {
                 Robert Sena
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="conteudo-dados">
             <div className="frases">
               <p>
@@ -51,6 +51,16 @@ export default function App() {
               </p>
               <p>
                 A segurança da informação é muito importante, pois todos estamos cada vez mais expostos a riscos no mundo digital. O objetivo deste quiz é entender o quanto os usuários comuns sabem sobre golpes, invasões e como proteger seus dados pessoais online. Com tantas atividades acontecendo pela internet, como compras e serviços bancários, as pessoas se tornam alvos fáceis para criminosos digitais. Por isso, é essencial aprender sobre como se proteger desses riscos. Esse é o intuito do nosso quiz.
+              </p>
+            </div>
+          </div>
+          <div className="conteudo-dados">
+            <div className="frases">
+              <p>
+                Em um ambiente digital em constante evolução, onde novas ameaças surgem a todo momento e os criminosos utilizam estratégias cada vez mais complexas para enganar os usuários, é fundamental que todos estejam atentos, buscando conhecimento e adotando práticas seguras que garantam não apenas a proteção de seus próprios dados, mas também a integridade das relações que mantêm com organizações sociais e serviços digitais em geral.
+              </p>
+              <p>
+                Ao criar este quiz, nosso objetivo vai além de apenas avaliar o quanto você sabe sobre segurança digital: queremos oferecer uma oportunidade de aprendizado, reflexão e conscientização sobre os perigos reais que existem na internet, reforçando a importância de práticas simples, porém eficazes, como desconfiar de mensagens suspeitas, utilizar senhas seguras e manter seus dispositivos sempre atualizados.
               </p>
             </div>
           </div>

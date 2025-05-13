@@ -15,6 +15,7 @@ export default function Header() {
                         <nav className="links-cabecalho">
                             <a href="/">Início</a>
                             <a href="/quiz">Quiz</a>
+                            <a href="/about">Sobre</a>
                         </nav>
                     </div>
                 </div>
