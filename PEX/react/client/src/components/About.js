@@ -30,13 +30,13 @@ export default function About() {
                                 <p>
                                     Robert Sena Santos, 21 anos, Brasileiro
                                 </p>
-                                <Link 
-                                className='linkedin'
-                                to="https://www.linkedin.com/in/robert-sena-940724210/">
+                                <Link
+                                    className='linkedin'
+                                    to="https://www.linkedin.com/in/robert-sena-940724210/">
                                     Meu LinkedIn
                                 </Link>
                                 <p>
-                                    Entrei na área de Análise e Desenvolvimento de Sistemas motivado pela minha paixão por tecnologia, pelo desejo de entender como as coisas funcionam por trás das telas e pela vontade de criar soluções que façam a diferença. Já tenho um Técnico de Desenvolvimento de Sistemas pelo SENAI, onde obtive grandes experiências. Estou me formando em ADS no fim do primeiro semestre de 2025.
+                                    Entrei na área de Desenvolvimento de Sistemas motivado pela minha paixão por tecnologia, pelo desejo de entender como as coisas funcionam por trás das telas e pela vontade de criar soluções que façam a diferença. Já tenho um Técnico de Desenvolvimento de Sistemas pelo SENAI, onde obtive grandes experiências, através disso decidi iniciar a graduação na mesma área. Estou me formando em ADS no fim do primeiro semestre de 2025 .
                                 </p>
                             </div>
                         </div>
@@ -46,13 +46,15 @@ export default function About() {
                             <img src={Pulu} alt="Foto do integrante Caio Dias" />
                             <div className='info-pessoal'>
                                 <p>
-                                    Robert Sena Santos, 21 anos, Brasileiro
+                                    Caio Dias Pulu, 23 anos, Brasileiro
                                 </p>
+                                <Link
+                                    className='linkedin'
+                                    to="https://www.linkedin.com/in/caio-pulu-1688791ba/">
+                                    Meu LinkedIn
+                                </Link>
                                 <p>
-                                    linkedin.com/in/robert-sena-940724210/
-                                </p>
-                                <p>
-                                    Entrei na área de Análise e Desenvolvimento de Sistemas motivado pela minha paixão por tecnologia, pelo desejo de entender como as coisas funcionam por trás das telas e pela vontade de criar soluções que façam a diferença na vida das pessoas. Já tenho um Técnico de Desenvolvimento de Sistemas pelo SENAI, onde obtive grandes experiências. Estou me formando em ADS no fim deste semetre.
+                                    Atualmente, estou cursando tecnólogo no Centro Universitário Carlos Drummond de Andrade, onde comecei em fevereiro de 2023 e devo me formar em junho de 2025. Iniciei minha carreira em tecnologia por uma curiosidade constante sobre os mecanismos que fazem os sites e sistemas funcionarem.
                                 </p>
                             </div>
                         </div>
@@ -62,13 +64,15 @@ export default function About() {
                             <img src={Malcoln} alt="Foto do integrante Malcoln França" />
                             <div className='info-pessoal'>
                                 <p>
-                                    Robert Sena Santos, 21 anos, Brasileiro
+                                    Malcoln Batista da Silva França, 30 anos, Brasileiro
                                 </p>
+                                <Link
+                                    className='linkedin'
+                                    to="https://www.linkedin.com/in/malcoln-batista-da-silva-fran%C3%A7a-98059b53/">
+                                    Meu LinkedIn
+                                </Link>
                                 <p>
-                                    linkedin.com/in/robert-sena-940724210/
-                                </p>
-                                <p>
-                                    Entrei na área de Análise e Desenvolvimento de Sistemas motivado pela minha paixão por tecnologia, pelo desejo de entender como as coisas funcionam por trás das telas e pela vontade de criar soluções que façam a diferença na vida das pessoas. Já tenho um Técnico de Desenvolvimento de Sistemas pelo SENAI, onde obtive grandes experiências. Estou me formando em ADS no fim deste semetre.
+                                    Atualmente, estou no 5º e último semestre do curso de Análise e Desenvolvimento de Sistemas na UniDrummond, uma escolha que reflete minha paixão por tecnologia e meu desejo de crescer profissionalmente. Já atuo na área de tecnologia, com foco em Infraestrutura, e decidi investir nessa formação para aprimorar minhas habilidades e me preparar ainda mais para as demandas do mercado de trabalho. Sou dedicado, proativo e estou sempre buscando evoluir, combinando minha experiência prática com o conhecimento acadêmico para construir uma carreira sólida e impactante no setor de tecnologia.
                                 </p>
                             </div>
                         </div>
@@ -78,13 +82,15 @@ export default function About() {
                             <img src={Gustavo} alt="Foto do integrante Gustavo trevisani" />
                             <div className='info-pessoal'>
                                 <p>
-                                    Robert Sena Santos, 21 anos, Brasileiro
+                                    Gustavo Trevisani Novais, 20 anos, Brasileiro
                                 </p>
+                                <Link
+                                    className='linkedin'
+                                    to="https://www.linkedin.com/in/gustavo-trevizani-653a31278/">
+                                    Meu LinkedIn
+                                </Link>
                                 <p>
-                                    linkedin.com/in/robert-sena-940724210/
-                                </p>
-                                <p>
-                                    Entrei na área de Análise e Desenvolvimento de Sistemas motivado pela minha paixão por tecnologia, pelo desejo de entender como as coisas funcionam por trás das telas e pela vontade de criar soluções que façam a diferença na vida das pessoas. Já tenho um Técnico de Desenvolvimento de Sistemas pelo SENAI, onde obtive grandes experiências. Estou me formando em ADS no fim deste semetre.
+                                    Desde pequeno, sempre fui fascinado por tecnologia e curioso sobre o funcionamento dos sites e sistemas que usamos no dia a dia. Por isso, decidi investir na área e atualmente estou cursando um tecnólogo na UniDrummond. Comecei minha graduação em fevereiro de 2023 e a previsão é que eu conclua o curso em junho de 2025. Essa jornada tem sido fundamental para aprofundar meus conhecimentos e me preparar para os desafios do mercado de tecnologia.
                                 </p>
                             </div>
                         </div>

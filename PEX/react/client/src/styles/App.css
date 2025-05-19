@@ -70,38 +70,6 @@ header {
   padding: 0;
 }
 
-@media (max-width: 999px) {
-
-  .content-cabecalho {
-    height: auto;
-    display: grid;
-    justify-content: normal;
-    width: 90%;
-  }
-
-  .esquerdo-header {
-    justify-self: center;
-  }
-
-  .direito-header {
-    width: 100%;
-  }
-
-  .links-cabecalho a:hover {
-    text-decoration: underline;
-    font-size: 24px;
-  }
-
-  .links-cabecalho ul.open {
-    display: flex;
-  }
-
-  .links-cabecalho ul {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-
 /* -------------- CABEÇALHO -------------- */
 
 /* -------------- RODAPE -------------- */
@@ -408,7 +376,49 @@ label {
 }
 
 .linkedin {
-  text-decoration: none;
+  text-decoration: underline;
+  padding-right: 1rem;
+  color: blue;
 }
 
 /* -------------- SOBRE --------------*/
+
+@media (max-width: 999px) {
+
+  .content-cabecalho {
+    height: auto;
+    display: grid;
+    justify-content: normal;
+    width: 90%;
+  }
+
+  .esquerdo-header {
+    justify-self: center;
+  }
+
+  .direito-header {
+    width: 100%;
+  }
+
+  .links-cabecalho a:hover {
+    text-decoration: underline;
+    font-size: 24px;
+  }
+
+  .links-cabecalho ul.open {
+    display: flex;
+  }
+
+  .links-cabecalho ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .frases-sobre {
+    width: 87%;
+    height: auto;
+    padding: 1.2rem 0px 1.2rem 0px;
+    display: grid;
+    
+  }
+}
