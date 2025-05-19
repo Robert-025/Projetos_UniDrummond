@@ -1,23 +1,23 @@
 /* -------------- CABEÇALHO -------------- */
 
-.body{ 
+.body {
   display: flex;
   flex-direction: column;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
-  
+
 }
 
-header{
+header {
   width: 100%;
-  height: 120px;
+  height: auto;
   background-color: #393691;
   display: flex;
   justify-content: center;
   /* margin-bottom: 100px; */
 }
 
-.content-cabecalho{
+.content-cabecalho {
   /* background-color: aqua; */
   height: 100%;
   width: 78.5%;
@@ -26,12 +26,12 @@ header{
   justify-content: space-between;
 }
 
-.esquerdo-header img{
+.esquerdo-header img {
   width: 100px;
   height: 100px;
 }
 
-.direito-header{
+.direito-header {
   width: 40%;
   height: 100%;
   display: flex;
@@ -40,20 +40,12 @@ header{
   justify-content: space-between;
 }
 
-.links-cabecalho{
+.links-cabecalho {
+  /* background-color: chocolate; */
   width: 100%;
-  height: 100%;
-  display: flex;
-  /* background-color: blueviolet; */
-  align-items: center;
-  justify-content: space-between;
 }
 
-ul{
-  list-style-type: none;
-}
-
-.links-cabecalho a{
+.links-cabecalho a {
   color: #000;
   text-decoration: none;
   font-size: 20px;
@@ -65,30 +57,70 @@ ul{
   border-radius: 40px;
 }
 
-.links-cabecalho a:hover{
+.links-cabecalho a:hover {
   text-decoration: underline;
+}
+
+.links-cabecalho ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-self: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+@media (max-width: 999px) {
+
+  .content-cabecalho {
+    height: auto;
+    display: grid;
+    justify-content: normal;
+    width: 90%;
+  }
+
+  .esquerdo-header {
+    justify-self: center;
+  }
+
+  .direito-header {
+    width: 100%;
+  }
+
+  .links-cabecalho a:hover {
+    text-decoration: underline;
+    font-size: 24px;
+  }
+
+  .links-cabecalho ul.open {
+    display: flex;
+  }
+
+  .links-cabecalho ul {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 /* -------------- CABEÇALHO -------------- */
 
 /* -------------- RODAPE -------------- */
 
-footer{
+footer {
   width: 100%;
   height: 120px;
   background-color: #393691;
   display: flex;
   justify-content: center;
-  /* margin-top: 80px; */
 }
 
-.background-direitos{
+.background-direitos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.direitos{
+.direitos {
   color: #000;
   text-decoration: none;
   font-size: 20px;
@@ -107,7 +139,7 @@ footer{
 
 /* -------------- CORPO -------------- */
 
-.main-home{
+.main-home {
   width: 100%;
   height: auto;
   background-image: url("../img/sobre.jpg");
@@ -119,7 +151,7 @@ footer{
   align-items: center;
 }
 
-.main-quiz{
+.main-quiz {
   width: 100%;
   height: 49rem;
   background-image: url("../img/6505028.jpg");
@@ -135,13 +167,13 @@ footer{
 
 /* -------------- GERAL --------------*/
 
-.content{
+.content {
   width: 72%;
   height: 100%;
   display: grid;
 }
 
-.conteudo-titulo{
+.conteudo-titulo {
   width: 100%;
   height: 4.5rem;
   background-color: #fdf9ff;
@@ -157,13 +189,13 @@ footer{
   margin-top: 5rem;
 }
 
-.titulo{
+.titulo {
   width: 87%;
   height: auto;
   display: grid;
 }
 
-.titulo h1{
+.titulo h1 {
   font-size: 1.875rem;
   text-decoration: none;
   font-weight: 400;
@@ -173,9 +205,9 @@ footer{
 
 /* -------------- HOMEPAGE --------------*/
 
-.conteudo-entrada{
+.conteudo-entrada {
   width: 100%;
-  height: 20.625rem;
+  height: auto;
   background-color: #fdf9ff;
   border-radius: 1.25rem;
   border-color: #000;
@@ -189,18 +221,18 @@ footer{
   margin-top: 5rem;
 }
 
-.entrada{
+.entrada {
   width: 87%;
   height: auto;
   display: grid;
   justify-self: center;
 }
 
-.entrada p:last-child{
+.entrada p:last-child {
   padding-left: 3.125rem;
 }
 
-.conteudo-dados{
+.conteudo-dados {
   width: 100%;
   height: auto;
   background-color: #fdf9ff;
@@ -215,11 +247,11 @@ footer{
   margin-top: 5rem;
 }
 
-.dados p{
+.dados p {
   padding: 0px 3.75rem 0px 3.75rem;
 }
 
-.frases{
+.frases {
   width: 87%;
   height: 80%;
   padding: 1.2rem 0px 1.2rem 0px;
@@ -227,7 +259,7 @@ footer{
   justify-self: center;
 }
 
-.espaco-botao{
+.espaco-botao {
   width: 100%;
   height: 10rem;
   display: flex;
@@ -235,7 +267,7 @@ footer{
   align-items: center;
 }
 
-.espaco-botao a{
+.espaco-botao a {
   width: 27%;
   height: 3.125rem;
   border-radius: 1.25rem;
@@ -254,7 +286,7 @@ footer{
 
 /* -------------- QUESTIONS --------------*/
 
-.conteudo-pergunta{
+.conteudo-pergunta {
   width: 100%;
   height: 23.75rem;
   background-color: #fdf9ff;
@@ -270,32 +302,32 @@ footer{
   margin-top: 5rem;
 }
 
-.pergunta{
+.pergunta {
   width: 87%;
   height: auto;
   display: grid;
   justify-self: center;
 }
 
-.pergunta h2{
+.pergunta h2 {
   margin: 0px 0px 2.5rem 0px;
   font-size: 1.125rem;
   text-decoration: none;
   font-weight: 400;
 }
 
-label{
+label {
   font-size: 1.125rem;
   text-decoration: none;
   font-weight: 400;
 }
 
-.espaco-vazio{
+.espaco-vazio {
   width: 100%;
   height: 11.125rem;
 }
 
-.espaco-botao-quiz{
+.espaco-botao-quiz {
   width: 100%;
   height: 6rem;
   display: flex;
@@ -303,7 +335,7 @@ label{
   align-items: end;
 }
 
-.espaco-botao-final{
+.espaco-botao-final {
   width: 27%;
   height: 3.125rem;
   border-radius: 1.25rem;
@@ -320,7 +352,7 @@ label{
   justify-self: center;
 }
 
-.espaco-botao-quiz button{
+.espaco-botao-quiz button {
   width: 27%;
   height: 3.125rem;
   border-radius: 1.25rem;
@@ -335,11 +367,7 @@ label{
   align-content: center;
 }
 
-/* -------------- QUESTIONS --------------*/
-
-/* -------------- RESULT --------------*/
-
-.conteudo-resultado {
+.conteudo-dados-sobre {
   width: 100%;
   height: auto;
   background-color: #fdf9ff;
@@ -351,25 +379,36 @@ label{
   display: grid;
   align-content: center;
   opacity: 92%;
-  margin-top: 5rem;
+  margin: 5rem 0 7rem 0;
 }
 
-.resultado{
+/* -------------- QUESTIONS --------------*/
+
+/* -------------- SOBRE --------------*/
+
+.frases-sobre {
   width: 87%;
   height: auto;
-  display: grid;
+  padding: 1.2rem 0px 1.2rem 0px;
+  display: flex;
   justify-self: center;
+  align-items: center;
 }
 
-.resultado h2{
-  margin: 0px 0px 2.5rem 0px;
-  font-size: 1.125rem;
+.frases-sobre img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.info-pessoal {
+  display: grid;
+  padding-left: 2rem;
+  /* align-content: center; */
+}
+
+.linkedin {
   text-decoration: none;
-  font-weight: 400;
 }
 
-/* -------------- RESULT --------------*/
-
-@media (max-width: 999px){
-  
-}
+/* -------------- SOBRE --------------*/
